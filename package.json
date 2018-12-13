@@ -1,0 +1,45 @@
+{
+  "name": "Expense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasBoyce/Expense.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouglasBoyce/Expense/issues"
+  },
+  "homepage": "https://github.com/DouglasBoyce/Expense#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^2.3.1",
+    "aws-sdk": "^2.368.0",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "firebase": "^5.5.9",
+    "firebase-admin": "^6.2.0",
+    "if-env": "^1.0.4",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "multer-s3": "^2.9.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "run": "^1.4.0",
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {}
+}
